@@ -1,5 +1,5 @@
 # Shopping-Behavior
-Sales performance dashboards (Excel &amp; Looker Studio)
+Shopping Behavior dashboards (Excel &amp; Looker Studio)
 
 ## 1. Description
 Dashboard ini dibuat menggunakan Google Looker Studio untuk
@@ -20,35 +20,40 @@ frekuensi pembelian.
 - Microsoft Excel
 
 ## 5. Data Cleaning & Preparation
-- Menggabungkan tabel yang dibutuhkan menggunakan sql
-- Menangani missing values untuk tabel rating saat menggabungkan dengan tabel orders
-- Menyesuaikan format data
-- Memfilter data dengan status order "Completed" untuk sebagian chart dashboard
+- Menyiapkan dataset hasil unduhan dari Kaggle melalui proses format standardization
+- Melakukan konversi file CSV agar dapat digunakan secara optimal dalam Looker Studio
+- Melakukan basic data cleaning, termasuk pengecekan missing values pada kolom yang digunakan
+- Melakukan filtering data untuk menyesuaikan konteks analisis pada dashboard tertentu
+- Menata struktur data agar mendukung proses visualisasi dan insight extraction
 
 ## 6. Analysis & Methodology
-- Agregasi revenue menggunakan fungsi SUM
-- Perhitungan jumlah produk yang paling laku
-- Perbandingan performa penjualan antar kategori
+- Melakukan analisis deskriptif menggunakan data yang telah dirapikan dan distandarisasi
+- Menggunakan proses agregasi dasar untuk meringkas data
+- Melakukan perbandingan sederhana antar kategori untuk melihat distribusi dan performa penjualan
+- Menginterpretasikan hasil analisis melalui visualisasi pada dashboard
+
   
 ## 7. Dashboard
 - Excel : 
-<img width="697" height="423" alt="{D1548DFF-7A0E-42B5-B1FF-BE5331357EC4}" src="https://github.com/user-attachments/assets/e2b5cc6d-415b-4140-bb81-9f5021b5cb30" />
+<img width="661" height="423" alt="image" src="https://github.com/user-attachments/assets/a358eaef-2432-4097-abc1-746b576f7657" />
 
 
-- PowerBI :
-<img width="642" height="500" alt="image" src="https://github.com/user-attachments/assets/c64d8b7a-e744-417b-918b-371fae536c75" />
+
+- Looker Studio :
+<img width="599" height="550" alt="image" src="https://github.com/user-attachments/assets/4e05bd86-c997-463c-b2f6-46e572926cea" />
+<img width="601" height="582" alt="image" src="https://github.com/user-attachments/assets/5a225769-5773-41be-a5dd-6166dc2b9653" />
+<img width="604" height="583" alt="image" src="https://github.com/user-attachments/assets/abe9b29c-983b-4fb3-bdff-6845fd8c4884" />
+<img width="303" height="527" alt="image" src="https://github.com/user-attachments/assets/62c771be-d626-41b3-b71b-ff12e908549d" />
 
 
 ## 8. Key Insights
-- Kategori electronics memberikan kontribusi revenue tertinggi
-- Kategori groceries memberikan kontribusi revenue paling sedikit
-- Terjadi penurunan penjualan pada tahun 2024 hingga 2025
-- Produk paling laku adalah Greanleaf Painting
+- Kategori clothing memberikan kontribusi tertinggi apapun musimnya
+- Kategori outerwear memberikan kontribusi revenue paling sedikit
+- Meskipun transaksi tanpa promo masih mendominasi, penggunaan promo paling banyak terjadi pada metode pembayaran Debit Card yaitu 289, menunjukkan potensi optimalisasi promo berbasis metode pembayaran.
+- Pola pembelian menunjukkan perbedaan perilaku berdasarkan usia, di mana kelompok usia 33–37 tahun cenderung melakukan pembelian bulanan, sedangkan usia 38–42 tahun lebih aktif melakukan pembelian mingguan.
+- Total jumlah produk yang terjual dengan menjumlahkan semua kategori yaitu pada umur 53-57
 
-## 9. Conclusion
-Hasil analisis menunjukkan bahwa kita harus fokus pada kategori groceries dengan membuat strategi promosi agar dapat meningkatkan revenue dari kategori ini dan Menjaga konsistensi strategi promosi kategori electronics guna memastikan stabilitas dan peningkatan revenue di tahun mendatang.
-
-## 10. Author
+## 9. Author
 - Nama: Ryan Bintang Ramadhan
 - GitHub: https://github.com/ryanbintang
 - LinkedIn: https://www.linkedin.com/in/ryan-bintang-ramadhan?trk=contact-info
