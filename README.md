@@ -45,6 +45,7 @@ frekuensi pembelian.
 <img width="604" height="583" alt="image" src="https://github.com/user-attachments/assets/abe9b29c-983b-4fb3-bdff-6845fd8c4884" />
 <img width="303" height="527" alt="image" src="https://github.com/user-attachments/assets/62c771be-d626-41b3-b71b-ff12e908549d" />
 
+Live Dashboard : https://lookerstudio.google.com/reporting/e332011b-ba93-4487-af62-137e08d106d0
 
 ## 8. Key Insights
 - Kategori clothing memberikan kontribusi tertinggi apapun musimnya
